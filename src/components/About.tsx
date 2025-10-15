@@ -52,25 +52,27 @@ const About = () => {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6 animate-slide-in-left">
             <p className="text-lg text-foreground leading-relaxed">
-              I'm a dedicated Front-end Web Developer with expertise in modern
-              JavaScript frameworks and a keen eye for UI/UX design. I
-              specialize in building scalable, performant web applications that
-              deliver exceptional user experiences.
+              I'm a dedicated Fullstack Web Developer with a strong foundation
+              in modern JavaScript frameworks and a passion for crafting
+              seamless user experiences from front to back. I specialize in
+              building scalable, performant web applications that integrate
+              intuitive UI/UX design with robust backend architecture.
             </p>
 
             <p className="text-lg text-foreground leading-relaxed">
-              With strong skills in React, TypeScript, and modern development
-              tools, I focus on creating responsive, accessible, and visually
-              appealing interfaces. I'm passionate about clean code, performance
-              optimization, and staying up-to-date with the latest web
-              technologies.
+              My frontend expertise includes React, TypeScript, and responsive
+              design principles, while my backend experience spans Node.js,
+              Express, and API development using REST and GraphQL. I work with
+              databases like MongoDB and PostgreSQL, and I’m proficient in
+              deploying fullstack apps using platforms like Vercel and Docker.
             </p>
 
             <p className="text-lg text-foreground leading-relaxed">
-              My experience includes working with state management libraries
-              like Redux Toolkit and Zustand, implementing efficient API
-              integrations with React Query, and building comprehensive web
-              applications from concept to deployment.
+              I’ve built comprehensive applications from concept to deployment,
+              integrating state management tools like Redux Toolkit and Zustand,
+              and optimizing data fetching with React Query. Whether it's
+              designing clean, accessible interfaces or architecting efficient
+              server-side logic, I bring a holistic approach to web development.
             </p>
           </div>
 
@@ -100,6 +102,20 @@ const About = () => {
               </div>
               <div className="w-full bg-muted rounded-full h-2">
                 <div className="bg-gradient-primary h-2 rounded-full w-[95%] transition-all duration-1000"></div>
+              </div>
+              <div className="flex justify-between items-center">
+                <span className="text-sm font-medium">Backend Development</span>
+                <span className="text-sm text-primary">70%</span>
+              </div>
+              <div className="w-full bg-muted rounded-full h-2">
+                <div className="bg-gradient-primary h-2 rounded-full w-[70%] transition-all duration-1000"></div>
+              </div>
+              <div className="flex justify-between items-center">
+                <span className="text-sm font-medium">Database</span>
+                <span className="text-sm text-primary">75%</span>
+              </div>
+              <div className="w-full bg-muted rounded-full h-2">
+                <div className="bg-gradient-primary h-2 rounded-full w-[75%] transition-all duration-1000"></div>
               </div>
 
               <div className="flex justify-between items-center">

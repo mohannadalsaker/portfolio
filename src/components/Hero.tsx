@@ -40,7 +40,7 @@ const Hero = () => {
             Mohannad Alsaker
           </h1>
           <h2 className="text-2xl md:text-3xl font-semibold mb-4 text-foreground">
-            Front-end Web Developer
+            Full-Stack Web Developer
           </h2>
           <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-2xl mx-auto">
             Building scalable, visually engaging web apps with React &

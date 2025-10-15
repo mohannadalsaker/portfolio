@@ -11,6 +11,31 @@ import { Calendar, MapPin, Building } from "lucide-react";
 const Experience = () => {
   const experiences = [
     {
+      title: "Full-stack Web Developer",
+      company: "Freelance",
+      location: "Syria",
+      period: "2025 - Present",
+      // type: "Full-time",
+      description:
+        "Developed and maintained fullstack web applications using React, Node.js, and MongoDB, following modern development practices. Collaborated with cross-functional teams to build scalable, secure, and user-focused digital solutions.",
+      technologies: [
+        "React",
+        "TypeScript",
+        "Tailwind CSS",
+        "Redux Toolkit",
+        "Redux Toolkit Query",
+        "React Query",
+        "Material UI",
+        "Node.js",
+        "Express.js",
+        "Nest.js",
+        "PostgreSQL",
+        "MongoDB",
+        "Prisma",
+      ],
+      current: true,
+    },
+    {
       title: "Front-end Web Developer",
       company: "Uranus Link",
       location: "Syria",
@@ -252,6 +277,26 @@ const Experience = () => {
                     </span>
                     <Badge variant="secondary" className="bg-light-surface">
                       Advanced
+                    </Badge>
+                  </div>
+                  <div className="flex justify-between items-center">
+                    <span className="font-medium">Node.js & Express</span>
+                    <Badge variant="secondary" className="bg-light-surface">
+                      Intermediate
+                    </Badge>
+                  </div>
+                  <div className="flex justify-between items-center">
+                    <span className="font-medium">Database Design</span>
+                    <Badge variant="secondary" className="bg-light-surface">
+                      Intermediate
+                    </Badge>
+                  </div>
+                  <div className="flex justify-between items-center">
+                    <span className="font-medium">
+                      API Development & Integration
+                    </span>
+                    <Badge variant="secondary" className="bg-light-surface">
+                      Intermediate
                     </Badge>
                   </div>
                 </div>

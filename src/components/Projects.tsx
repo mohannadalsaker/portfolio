@@ -12,12 +12,51 @@ import { ExternalLink, Github } from "lucide-react";
 const Projects = () => {
   const projects = [
     {
-      title: "Glowy Salon ERP",
+      title: "Project Management System",
       description:
-        "Comprehensive salon management system with appointment scheduling, inventory management, and customer relationship features.",
+        "A fullstack app for organizing projects, assigning tasks, and tracking progress with user roles, real-time updates, and API integration.",
       image: "/api/placeholder/600/400",
       technologies: [
-        "React",
+        "React.js",
+        "TypeScript",
+        "React Query",
+        "Zustand",
+        "Material UI",
+        "Chart js",
+        "PostgreSQL",
+        "Prisma",
+        "Nest.js",
+      ],
+      liveUrl: "#",
+      githubUrl: "#",
+      featured: true,
+    },
+    {
+      title: "Library Management System",
+      description:
+        "A fullstack app for managing book inventory and archiving, with secure user authentication and tools for organizing and tracking warehouse operations.",
+      image: "/api/placeholder/600/400",
+      technologies: [
+        "React.js",
+        "TypeScript",
+        "React Query",
+        "Zustand",
+        "MongoDB",
+        "Mongoosh",
+        "Express.js",
+        "Bun",
+      ],
+      liveUrl: "#",
+      githubUrl: "#",
+      featured: true,
+    },
+    {
+      title: "Balsam Tech SaaS Deployment",
+      description:
+        "This SaaS platform enables medical suppliers to manage a digital storefront, track inventory levels, and process orders through a custom-built warehouse management system.",
+      image: "/api/placeholder/600/400",
+      technologies: [
+        "React.js",
         "TypeScript",
         "RTK",
         "RTK Query",
@@ -34,7 +73,7 @@ const Projects = () => {
         "Multi-vendor e-commerce dashboard with analytics, inventory management, and order processing capabilities.",
       image: "/api/placeholder/600/400",
       technologies: [
-        "Next.js",
+        "React.js",
         "TypeScript",
         "RTK",
         "RTK Query",
@@ -46,12 +85,12 @@ const Projects = () => {
       featured: true,
     },
     {
-      title: "Balsam Tech SaaS Deployment",
+      title: "Glowy Salon ERP",
       description:
-        "This SaaS platform enables medical suppliers to manage a digital storefront, track inventory levels, and process orders through a custom-built warehouse management system.",
+        "Comprehensive salon management system with appointment scheduling, inventory management, and customer relationship features.",
       image: "/api/placeholder/600/400",
       technologies: [
-        "Next.js",
+        "React",
         "TypeScript",
         "RTK",
         "RTK Query",

@@ -114,6 +114,7 @@ const Contact = () => {
                 </p>
                 <div className="mt-4 text-sm text-muted-foreground">
                   <p>🌍 Remote-first mindset</p>
+                  <p>✈️ Open to relocation opportunities</p>
                   <p>⏰ Flexible with time zones</p>
                   <p>💬 Fluent in English & Arabic</p>
                 </div>
