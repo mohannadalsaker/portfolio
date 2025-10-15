@@ -43,8 +43,8 @@ const Hero = () => {
             Full-Stack Web Developer
           </h2>
           <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-2xl mx-auto">
-            Building scalable, visually engaging web apps with React &
-            TypeScript.
+            Building scalable, visually engaging web apps with React, Node.js,
+            and modern backend technologies.
           </p>
         </div>
 
