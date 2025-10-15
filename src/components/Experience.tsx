@@ -79,7 +79,7 @@ const Experience = () => {
 
   const education = [
     {
-      degree: "Bachelor's Degree in Information Systems Engineering",
+      degree: "Bachelor's Degree in Information Techonology Engineering",
       institution: "Syrian Virtual University (SVU)",
       location: "Syria",
       period: "2021 - 2026",
