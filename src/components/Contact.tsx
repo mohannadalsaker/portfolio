@@ -186,14 +186,6 @@ const Contact = () => {
                       </Button>
                     </div>
                   </div>
-
-                  <div className="pt-8 border-t border-border">
-                    <p className="text-sm text-muted-foreground">
-                      💡 <strong>Pro tip:</strong> Include details about your
-                      project timeline, budget, and specific requirements to get
-                      a faster response.
-                    </p>
-                  </div>
                 </div>
               </CardContent>
             </Card>
